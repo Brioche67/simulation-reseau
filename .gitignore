@@ -1,0 +1,27 @@
+# === Compilations C ===
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# === Binaires éventuels ===
+main
+app
+simulation
+run
+
+# === Logs ===
+*.log
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === JetBrains ===
+.idea/
+cmake-build-*/
+
+# === OS files ===
+.DS_Store
+Thumbs.db

@@ -39,20 +39,20 @@ Lancer le projet :
 Le programme utilise le fichier mylan_nocycle par défaut pour générer le réseau.
 
 # Fonctionnalités
-###Création du réseau :
+### Création du réseau :
 Lecture des fichiers mylan et mylan_nocycle.
 Initialisation des stations et des switches avec leurs adresses MAC/IP.
 Allocation dynamique des liens et des tables de commutation.
-###Affichage du réseau :
+### Affichage du réseau :
 Détails des stations et switches.
 Table de commutation et état des ports (ACTIF, BLOQUE, DESACTIVE).
 Liens et ports associés.
-###Transmission de trames :
+### Transmission de trames :
 Création de trames depuis les noms des stations.
 Transmission entre stations via les switches.
 Apprentissage dynamique des adresses MAC dans les switches.
 Gestion de la diffusion et des ports d’entrée pour éviter les boucles.
-###Protocole STP :
+### Protocole STP :
 Calcul des ports racines et désignés pour chaque switch.
 Convergence automatique jusqu’à ce que tous les switches aient trouvé l’arbre couvrant.
 Mise à jour de l’état des ports pour éviter les boucles.
